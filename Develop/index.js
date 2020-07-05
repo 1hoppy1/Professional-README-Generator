@@ -79,7 +79,7 @@ console.log(userInput.projectLicense, userInput.projectLicense.join(""))
 
  // function to write README file
  const output = generateMarkdown(data)
- fs.writeFileSync("../AwesomeReadMe.md", output);
+ fs.writeFileSync("../README.md", output);
  //let fileName = `AwesomeReadMe`;
  //let data = answers
     });
