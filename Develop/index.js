@@ -23,12 +23,12 @@ const questions = () => {
       {
         type: 'input',
         name: 'projectUsage',
-        message: 'Describe how the User uses the application.'
+        message: 'Please provide instructions and examples for use.'
       },
       {
         type: 'input',
         name: 'projectContribution',
-        message: 'Describe Contribution Guidelines.'
+        message: 'Describe your Contribution Guidelines.'
       },
       {
         type: 'input',
@@ -75,7 +75,6 @@ const questions = () => {
     data.projectEmail = userInput.projectEmail
     data.projectCredits = userInput.projectCredits
 
-console.log(userInput.projectLicense, userInput.projectLicense.join(""))
 
  // function to write README file
  const output = generateMarkdown(data)
